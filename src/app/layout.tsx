@@ -25,12 +25,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        <h1>
+        {/* <h1>
           Layout {state}
         </h1>
         <button onClick={() => setState(state + 1)}>
           Klik
-        </button>
+        </button> */}
         {children}
       </body>
     </html>
